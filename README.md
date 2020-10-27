@@ -6,7 +6,7 @@ or directly through 000webhost.com that uses Apache server
 <br>Ideal Web Browser: Firefox
 <br>Add Safe folder to gitignore file
 # <br>Functionalities:
-<br>rDatabase-centric, client-server architectural model encompassed within the principles of MVC(Model View Controller)
+<br>Database-centric, client-server architectural model encompassed within the principles of MVC(Model View Controller)
 <br>Controllers choose which template to choose
 <br>Relational database design
 <br>Implement Object Relational Mappers(ORM) for the relational database by providing an OOP interface
