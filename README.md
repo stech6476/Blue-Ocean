@@ -1,11 +1,11 @@
 # Blue-Ocean
-<br>Content Management System of a Payroll System
+# <br>Content Management System of a Payroll System
 <br>Prerequisites:
-Debugged PHP on a virtual NGINX server through a Virtual Box, MySQL ran through MySQL Workbench 
+<br>Debugged PHP on a virtual NGINX server through a Virtual Box, MySQL ran through MySQL Workbench 
 or directly through 000webhost.com that uses Apache server
-Ideal Web Browser: Firefox
-Add Safe folder to gitignore file
-Functionalities:
+<br>Ideal Web Browser: Firefox
+<br>Add Safe folder to gitignore file
+# <br>Functionalities:
 Database-centric, client-server architectural model encompassed within the principles of MVC(Model View Controller)
 Controllers choose which template to choose
 Relational database design
