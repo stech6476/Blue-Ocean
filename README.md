@@ -3,6 +3,7 @@
 <br>Prerequisites:
 <br>Debugged PHP on a virtual NGINX server through a Virtual Box, MySQL ran through MySQL Workbench 
 or directly through 000webhost.com that uses Apache server
+<br>Website running at: https://payrollforblueocean.000webhostapp.com/
 <br>Ideal Web Browser: Firefox
 <br>Add Safe folder to gitignore file
 # <br>Functionalities:
@@ -16,3 +17,4 @@ or directly through 000webhost.com that uses Apache server
 code written in TDD(Test driven development) style using REST(Representational State Transfer)
 <br>Protect pages and add permission through bitwise operations
 <br>Content format with regex and paginate records
+<br>Inspired and Based on PHP Novice to Ninja by Butler and Yank, https://github.com/spbooks/phpmysql6
