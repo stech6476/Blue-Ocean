@@ -1,6 +1,6 @@
 # Blue-Ocean
-Content Management System of a Payroll System
-Prerequisites:
+<br>Content Management System of a Payroll System
+<br>Prerequisites:
 Debugged PHP on a virtual NGINX server through a Virtual Box, MySQL ran through MySQL Workbench 
 or directly through 000webhost.com that uses Apache server
 Ideal Web Browser: Firefox
