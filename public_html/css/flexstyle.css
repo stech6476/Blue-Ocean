@@ -1,0 +1,418 @@
+@charset "utf-8";
+
+
+
+.default {
+    font-size: 16px;
+
+    padding-top: 250px;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 525px;
+
+     background-image:  linear-gradient(
+      rgba(255, 255, 255, 0.80), 
+      rgba(255, 255, 255, .90)
+      ),
+      url(img/CSC_430_Logo.png);
+     background-position: center bottom;
+     background-repeat: no-repeat;
+   background-attachment: fixed;
+    text-align: center;
+
+}
+
+
+/*input[type='radio'] { transform: scale(2.5); }    
+input[type='checkbox'] {transform: scale(3); }*/
+
+.whiteback
+{
+    width: 100%;
+        margin: 0 auto;
+        background-color: rgb(255,255,255);
+}
+
+.whiteback p
+{
+    font-size: 2rem;
+}
+
+h1{
+    font-size: 200%;
+
+}
+
+h2{
+    font-size: 8rem;
+}
+h3{
+    font-size: 5rem;
+}
+p {
+    font-size: 3rem;
+
+}
+#home {
+    /*Fallback if gradients don't work */
+
+ 
+    background-image: url(img/CSC_430_Logo.png),  radial-gradient(
+     #90ee90, 
+    #006400);
+      
+    background-attachment: fixed;
+  background-position: center bottom;
+     background-repeat: no-repeat;
+     background-size: 50%, 100%;
+ background-blend-mode: multiply;
+    padding-bottom: 700px;
+    margin-bottom: -700px;
+}
+
+
+#logo {
+   
+    -webkit-animation: roll-in-left 2s ease;
+    animation: roll-in-left 2s ease;
+    animation-timing-function: cubic-bezier(0.68, 0,0.265, 1.55);
+
+}
+
+.errors {
+		padding: 1em;
+		border: 1px solid red;
+		background-color: lightyellow;
+		color: red;
+		margin-bottom: 1em;
+		overflow: auto;
+	}
+	
+	.errors ul {
+		margin-left: 1em;
+	}
+	
+.BO
+{
+
+
+
+	color: white;
+	text-align: center;
+}
+
+.ComDiv
+{
+
+
+color: blue;
+	 text-transform: uppercase;
+	font-size: 70px;
+}
+
+
+.Description
+{
+
+
+		font-size: 70px;
+
+}
+/*#logo:hover {
+
+    -webkit-animation: rotate-center 0.6s ease-in-out both;
+    animation: rotate-center 0.6s ease-in-out both;
+}*/
+
+
+#navRotate:hover {
+    -webkit-animation: rotate-center 0.6s ease-in-out both;
+    animation: rotate-center 0.6s ease-in-out both;
+}
+
+#navRotate:active {
+    -webkit-animation: roll-out-left 2s ease;
+    animation: roll-out-left 2s ease;
+
+}
+
+
+
+/**
+ * ----------------------------------------
+ * animation roll-out-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes roll-out-left {
+    0% {
+        -webkit-transform: translateX(0) rotate(0deg);
+        transform: translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateX(-1000px) rotate(-540deg);
+        transform: translateX(-1000px) rotate(-540deg);
+        opacity: 0;
+    }
+}
+
+@keyframes roll-out-left {
+    0% {
+        -webkit-transform: translateX(0) rotate(0deg);
+        transform: translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateX(-1000px) rotate(-540deg);
+        transform: translateX(-1000px) rotate(-540deg);
+        opacity: 0;
+    }
+}
+
+/**
+ * ----------------------------------------
+ * animation rotate-center
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+/**
+ * ----------------------------------------
+ * animation roll-in-left
+ * ----------------------------------------
+ */
+
+
+@-webkit-keyframes roll-in-left {
+    0% {
+        -webkit-transform: translateX(-800px) rotate(-540deg);
+        transform: translateX(-800px) rotate(-540deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0) rotate(0deg);
+        transform: translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+}
+@keyframes roll-in-left {
+    0% {
+        -webkit-transform: translateX(-800px) rotate(-540deg);
+        transform: translateX(-800px) rotate(-540deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0) rotate(0deg);
+        transform: translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+#nametitle
+{
+      color: #000;
+    margin: 1rem;
+     border: solid 9px purple;
+       border-radius: 1rem;
+       border-image: repeating-linear-gradient( 45deg, pink, pink 1%, purple 1%, purple 8%) 10;
+       font-size: 35px;
+}
+
+#state{
+
+    color: #000;
+    margin: 1rem;
+
+}
+#statetitle{
+    border: solid 9px purple;
+    border-radius: 1rem;
+
+    border-image: repeating-linear-gradient( 45deg, pink, pink 1%, purple 1%, purple 8%) 10;
+    transition: background-color 0.5s linear, transform 0.5s linear;
+    font-size: 35px;
+}
+
+#statetitle:hover{
+    color: #fff;
+    background-color: #c1a02e;
+    text-decoration: none;
+    border-image: repeating-linear-gradient( 45deg, purple, purple 1%, pink 1%, pink 8%) 10;
+    transform:  scale(1.05) rotate(-2deg);
+}
+
+#statetitle:active {
+    transform: translate(2px, 1px);
+}
+
+#statedisplay{
+    background-color: rgba(255,165,0, 0.7);
+    padding: 15px;
+}
+
+
+
+
+#statemain{
+
+    width: 100%;
+    margin: 0 auto;
+    min-width: 525px;
+
+}
+.radial-gradient {
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+
+    /*Fallback if gradients don't work */
+    background: #9b59b6;
+    /*Linear gradient... */
+    background:
+            radial-gradient(
+                    at center, #fc4a1a, #f7b733
+            );
+}
+#electoral {
+    /*Fallback if gradients don't work */
+    background: #9b59b6;
+   background: linear-gradient(to right, rgb(252, 74, 26), rgb(247, 183, 51));
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:5px;
+    margin: 20px;
+    border: 50px solid transparent;
+    border-image-width: 55px;
+    border-image-source: url(img/orangegrid.png);
+    border-image-slice: 101;
+
+    border-image-repeat: round;
+    border-image-outset: 15px;
+    perspective: 1000px;
+}
+#electoraldisplay {
+    transform: rotateY(2deg);
+    width:24%;
+    height:15em;
+    line-height:5em;
+    color:#fff;
+    background:#628794;
+    border: 3px solid rgba(9, 0, 5, 0.87);
+
+    margin: 10px;
+    transition: background-color 2s ease-out, transform 0.5s ease;
+}
+
+#electoraldisplay:hover {
+    transform: rotate(0) scale(1.1);
+    color: #000;
+    background-color: #c1a02e;
+    text-decoration: none;
+    border: 5px solid #ff8a07;
+    border-radius: 50%;
+
+}
+
+#electoraldisplay:active {
+    transform: translate(2px, 1px);
+}
+
+
+#electoral footer, header{
+
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: #cccccc;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    font-weight: bolder;
+}
+/* 768px */
+@media only screen and (max-width:800px) {
+    .default {
+        padding-top: 150px;
+        width: 100%;
+        margin: 0 auto;
+        min-width: 525px;
+        background: url(img/orange.png) center bottom / auto no-repeat;
+        background-color: rgba(255, 255, 255, 0.6);
+        background-attachment: fixed;
+        background-blend-mode: lighten;
+
+        text-align: center;
+        font-size: 16px;
+        
+
+    }
+    
+ #navigationbar {
+  
+  position: absolute;
+  height: 100%;
+ background-color: #3d3634;
+}
+
+    #electoral {
+        /*Fallback if gradients don't work */
+        background: #9b59b6;
+        background: linear-gradient(to right, rgb(252, 74, 26), rgb(247, 183, 51));
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding:5px;
+        margin: 20px;
+        border: 50px solid transparent;
+        border-image-width: 55px;
+        border-image-source: url(img/orangegrid.png);
+        border-image-slice: 101;
+
+        border-image-repeat: round;
+        border-image-outset: 15px;
+        perspective: 1000px;
+    }
+    #electoraldisplay {
+        transition: background-color 1s ease-out, transform 0.3s ease;
+        transform: rotateY(1deg);
+        display:block;
+        height:15em;
+        text-align:center;
+        line-height:15em;
+        color:#fff;
+        background:#628794;
+        border: 3px solid rgba(9, 0, 5, 0.87);
+        width: 100%;
+
+    }
+
+
+}
