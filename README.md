@@ -14,7 +14,7 @@ or directly through 000webhost.com that uses Apache server
 <br>Implement entity class on each table of a database
 <br>Create an extensible framework enforcing dependency structure via interfaces
 <br>Employ use of autoloading with PSR-4, URL rewriting, namespaces, access control via sessions, secure registration, binary log via MySQL pump backup
-code written in TDD(Test driven development) style using REST(Representational State Transfer)
+code written in TDD (Test driven development) style using REST (Representational State Transfer)
 <br>Protect pages and add permission through bitwise operations
 <br>Content format with regex and paginate records
 <br>Inspired and Based on PHP Novice to Ninja by Butler and Yank, https://github.com/spbooks/phpmysql6
